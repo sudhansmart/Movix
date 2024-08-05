@@ -14,12 +14,18 @@ const HeroBanner = () => {
     const navigate = useNavigate();
     const { url } = useSelector((state) => state.home);
     const { data, loading } = useFetch("/movie/upcoming");
-
+    
+   
     useEffect(() => {
-        const bg =
-            url.backdrop +
-            data?.results?.[Math.floor(Math.random() * 20)]?.backdrop_path;
-        setBackground(bg);
+        if (data && data.results && data.results.length > 0) {
+            const randomIndex = Math.floor(Math.random() * data.results.length);
+            const bg = url.backdrop + data.results[randomIndex]?.backdrop_path;
+            setBackground(bg);
+            console.log("testdata:", data);
+            console.log("testbg:",bg);
+        } else {
+            console.log("No valid data to set background");
+        }
     }, [data]);
 
     const searchQueryHandler = (event) => {
