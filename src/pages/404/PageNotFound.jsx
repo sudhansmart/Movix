@@ -12,7 +12,7 @@ const PageNotFound = () => {
                 <span className="smallText">Page not found!</span>
             </ContentWrapper>
         </div>
-    );
+    );   
 };
 
 export default PageNotFound;

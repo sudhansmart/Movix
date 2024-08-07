@@ -55,7 +55,7 @@ const SearchResult = () => {
                 <ContentWrapper>
                     {data?.results?.length > 0 ? (
                         <>
-                            <div className="pageTitle">
+                            <div className="pageTitle"> 
                                 {`Search ${
                                     data?.total_results > 1
                                         ? "results"

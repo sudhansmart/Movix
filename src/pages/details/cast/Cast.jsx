@@ -16,7 +16,7 @@ const Cast = ({ data, loading }) => {
                 <div className="circle skeleton"></div>
                 <div className="row skeleton"></div>
                 <div className="row2 skeleton"></div>
-            </div>
+            </div> 
         );
     };
     return (

@@ -11,7 +11,7 @@ const Trending = () => {
 
     const { data, loading } = useFetch(`/trending/movie/${endpoint}`);
 
-    const onTabChange = (tab) => {
+    const onTabChange = (tab) => { 
         setEndpoint(tab === "Day" ? "day" : "week");
     };
 

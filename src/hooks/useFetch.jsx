@@ -10,7 +10,7 @@ const useFetch = (url) => {
         setData(null);
         setError(null);
 
-        fetchDataFromApi(url)
+        fetchDataFromApi(url)   
             .then((res) => {
                 setLoading(false);
                 setData(res);

@@ -15,7 +15,7 @@ const Similar = ({ mediaType, id }) => {
             loading={loading}
             endpoint={mediaType}
         />
-    );
+    );  
 };
 
 export default Similar;

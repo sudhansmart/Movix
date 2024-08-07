@@ -30,7 +30,7 @@ const Popular = () => {
                 endpoint={endpoint}
             />
         </div>
-    );
+    ); 
 };
 
 export default Popular;

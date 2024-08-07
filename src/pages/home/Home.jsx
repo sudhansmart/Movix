@@ -15,7 +15,7 @@ const Home = () => {
             <Popular />
             <TopRated />
         </div>
-    );
+    ); 
 };
 
 export default Home;

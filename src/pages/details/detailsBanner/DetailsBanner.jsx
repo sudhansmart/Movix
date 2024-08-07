@@ -14,7 +14,7 @@ import PosterFallback from "../../../assets/no-poster.png";
 import { PlayIcon } from "../Playbtn";
 import VideoPopup from "../../../components/videoPopup/VideoPopup";
 
-const DetailsBanner = ({ video, crew }) => {
+const DetailsBanner = ({ video, crew }) => { 
     const [show, setShow] = useState(false);
     const [videoId, setVideoId] = useState(null);
 

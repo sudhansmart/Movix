@@ -16,6 +16,6 @@ const Recommendation = ({ mediaType, id }) => {
             endpoint={mediaType}
         />
     );
-};
+};  
 
 export default Recommendation;

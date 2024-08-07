@@ -25,7 +25,7 @@ const HeroBanner = () => {
             console.log("testbg:",bg);
         } else {
             console.log("No valid data to set background");
-        }
+        } 
     }, [data]);
 
     const searchQueryHandler = (event) => {
