@@ -14,7 +14,7 @@ const Recommendation = ({ mediaType, id }) => {
             data={data?.results}
             loading={loading}
             endpoint={mediaType}
-        />
+        />  
     );
 };  
 

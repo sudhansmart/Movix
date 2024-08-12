@@ -43,7 +43,7 @@ const Explore = () => {
             setPageNum((prev) => prev + 1);
             setLoading(false);
         });
-    };
+    };    
 
     const fetchNextPageData = () => {
         fetchDataFromApi(
